@@ -1,0 +1,18 @@
+Options +FollowSymLinks
+
+<Files "login.json">  
+  Require all denied
+</Files>
+
+<Files "config.php">  
+  Require all denied
+</Files>
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+Header always set Content-Security-Policy "upgrade-insecure-requests;"
+RewriteCond %{REQUEST_FILENAME} !-f  
+RewriteCond %{REQUEST_FILENAME} !-d  
+RewriteRule .* rewrite.php [L] 
