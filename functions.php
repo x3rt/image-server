@@ -187,7 +187,7 @@ function get_latest_uploader_version() {
 
     $context = stream_context_create($opts);
 
-    $content = json_decode(file_get_contents('https://api.github.com/repos/JoeGandy/ShareX-Custom-Upload/releases/latest', false, $context));
+    $content = json_decode(file_get_contents('https://api.github.com/repos/x3rt/image-server/releases/latest', false, $context));
 
     $release_cache = [
         'last_request' => time(),

@@ -4,7 +4,7 @@ A little PHP script created for uploading text, files, and images to your own we
 
 ## Installation
 
-Download the latest release as a ZIP from the [Releases page](https://github.com/JoeGandy/ShareX-Custom-Upload/releases).
+Download the latest release as a ZIP from the [Releases page](https://github.com/x3rt/image-server/releases).
 
 Extract the ZIP and follow the [setup instructions](#setup) below.
 
@@ -46,7 +46,7 @@ Updating to a new version is fully automated, except pressing a button. When a n
 
 If the update banner does not show up, please make sure that the `VERSION` file exists in both your uploader install directory and the `release` directory. The version number in the `release` directory must also be higher than the version number in your current installation.
 
-If you get an error after pressing the update button, make sure that the folder where your uploader is installed is writable. If that is the case and you still get an error, please [open an issue](https://github.com/JoeGandy/ShareX-Custom-Upload/issues).
+If you get an error after pressing the update button, make sure that the folder where your uploader is installed is writable. If that is the case and you still get an error, please [open an issue](https://github.com/x3rt/image-server/issues).
 
 > Note: The uploader only supports automatic updating starting with version 2.1.0. If you are currently using a version older than 2.1.0 and want to update, you will need to complete the update manually by copying the new files into your website. However, after you manually update, you will be able to use the automatic updater for future versions.
 
@@ -122,15 +122,6 @@ somecommand | upload myfile.txt
 
 Want to upload directly using POST requests? You're in luck! We've got [some documentation](UPLOADING.md).
 
-# Screenshots
-
-![Screenshot of gallery page](images/gallery.png)
-
-![Screenshot of text viewer](images/textviewer.png)
-
-# Planned Features
-
-[View the tasks board here](https://github.com/JoeGandy/ShareX-Custom-Upload/projects/1).
 
 # Full Configuration
 

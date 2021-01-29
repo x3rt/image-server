@@ -71,4 +71,4 @@ location = /myuploader/login.json { deny all; } # change this
 
 After changing the configuration, you can restart NGINX and the uploader should work.
 
-If you have any problems, please [open an issue on GitHub](https://github.com/JoeGandy/ShareX-Custom-Upload/issues).
+If you have any problems, please [open an issue on GitHub](https://github.com/x3rt/image-server/issues).
