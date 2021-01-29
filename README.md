@@ -42,7 +42,7 @@ See the [full configuration documentation](#full-configuration) for more informa
 
 Updating to a new version is fully automated, except pressing a button. When a new update is available, a large banner will appear that prompts you to update. Confirm the update, and it'll do the rest for you.
 
-> **Important: The automatic updater does not modify any of your configuration files, so if the configuration format is modified in the future, you will need to manually edit your configuration file to match the new format. _Please read the release notes for any new versions and check for any breaking configuration changes_. You can always check [the latest configuration file](src/config.default.php) for an example of what your configuration should look like.**
+> **Important: The automatic updater does not modify any of your configuration files, so if the configuration format is modified in the future, you will need to manually edit your configuration file to match the new format. _Please read the release notes for any new versions and check for any breaking configuration changes_. You can always check [the latest configuration file](config.default.php) for an example of what your configuration should look like.**
 
 If the update banner does not show up, please make sure that the `VERSION` file exists in both your uploader install directory and the `release` directory. The version number in the `release` directory must also be higher than the version number in your current installation.
 
