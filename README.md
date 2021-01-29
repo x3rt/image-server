@@ -1,4 +1,4 @@
-# ShareX-Custom-Upload
+# image-server
 
 A little PHP script created for uploading text, files, and images to your own webserver. It supports uploading via ShareX, but also on the web interface, and with command line scripts.
 
